@@ -1,29 +1,6 @@
-// const cardList = [
-//   {
-//     title: "Kitten 2",
-//     image: "images/kitten2.jpg",
-//     link: "About Kitten 2",
-//     description: "Demo description about kitten 2",
-//   },
-//   {
-//     title: "Kitten 3",
-//     image: "images/kitten3.jpg",
-//     link: "About Kitten 3",
-//     description: "Demo description about kitten 3",
-//   },
-// ];
 const clickMe = () => {
   alert("Thanks for clicking me. Hope you have a nice day!");
 };
-// const submitForm = () => {
-//   let formData = {};
-//   formData.first_name = $("#first_name").val();
-//   formData.last_name = $("#last_name").val();
-//   formData.password = $("#password").val();
-//   formData.email = $("#email").val();
-//   console.log("Form Data Submitted: ", formData);
-// };
-
 const submitForm = () => {
   let formData = {
     title: $("#title").val(),
